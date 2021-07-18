@@ -1,0 +1,1 @@
+Select (Salary*Months) as Earn,COUNT(*) from Employee group by 1 order by Earn desc limit 1;
